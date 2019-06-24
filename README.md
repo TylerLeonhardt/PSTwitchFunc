@@ -34,5 +34,5 @@ When you download the
 from Twitch,
 it downloads it relative to your timezone which means if you upload a file from Seattle or Miami,
 the time will be different.
-* Simplify code... lol.
-* Cleaner UI.
+* Revisit [Microsoft Graph bindings](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-microsoft-graph) which weren't working last I tried (Mar 2019).
+* Simplify code and cleaner UI... lol.
