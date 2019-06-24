@@ -6,6 +6,6 @@ if (!(Get-Module PSDepend -ListAvailable)) {
 }
 
 Write-Verbose "Installing dependencies..." -Verbose
-Invoke-PSDepend -Force
+Invoke-PSDepend -Force -Path ./deps.psd1
 
 Pop-Location
